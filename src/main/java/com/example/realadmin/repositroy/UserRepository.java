@@ -8,5 +8,5 @@ import org.springframework.stereotype.Repository;
 public interface UserRepository extends JpaRepository <User, Long>{
 
     //FirstBy로 하면 가장 최근의 건을 반환함
-    User findFirstByPhoneNumberOrdOrderByDesc(String phoneNumber);
+    User findFirstByPhoneNumberOrderByIdDesc(String phoneNumber);
 }

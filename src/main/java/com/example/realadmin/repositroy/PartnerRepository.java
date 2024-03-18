@@ -7,5 +7,5 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface PartnerRepository extends JpaRepository<Partner, Long> {
 
-    Partner findFirstByBusinessNumberOrderByIdDesc(String businewssNumber);
+    Partner findFirstByBusinessNumberOrderByIdDesc(String businessNumber);
 }

@@ -1,5 +1,6 @@
 package com.example.realadmin.repositorytest;
 
+import com.example.realadmin.test.RealadminApplicationTests;
 import com.example.realadmin.repositroy.PartnerRepository;
 import com.example.realadmin.system.Partner;
 import org.junit.jupiter.api.Assertions;
@@ -8,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.time.LocalDateTime;
 
-public class PartnerRepositoryTest extends StudyApplicationTests{
+public class PartnerRepositoryTest extends RealadminApplicationTests {
 
     @Autowired
     private PartnerRepository partnerRepository;

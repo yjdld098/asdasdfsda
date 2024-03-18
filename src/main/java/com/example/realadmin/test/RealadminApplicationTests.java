@@ -1,10 +1,10 @@
-package com.example.realadmin;
+package com.example.realadmin.test;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RealadminApplicationTests {
+public class RealadminApplicationTests {
 
     @Test
     void contextLoads() {

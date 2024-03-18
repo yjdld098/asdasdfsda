@@ -1,5 +1,6 @@
 package com.example.realadmin.repositorytest;
 
+import com.example.realadmin.RealadminApplication;
 import com.example.realadmin.repositroy.CategoryRepository;
 import com.example.realadmin.system.Category;
 import com.example.realadmin.system.User;
@@ -10,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.time.LocalDateTime;
 import java.util.Optional;
 
-public class CategoryRepositoryTest extends StudyApplicationTests {
+public class CategoryRepositoryTest extends RealadminApplication {
     @Autowired
     private CategoryRepository categoryRepository;
 
