@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.time.LocalDateTime;
 
-public class UserRepositoryTest extends RealadminApplicationTests{
+public class UserRepositoryTest extends RealadminApplicationTests {
     // Dependency Injection (DI)
     @Autowired
     private UserRepository userRepository;

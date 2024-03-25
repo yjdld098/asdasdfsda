@@ -1,8 +1,8 @@
 package com.example.realadmin.repositorytest;
 
 import com.example.realadmin.repositroy.ItemRepository;
-import com.example.realadmin.test.RealadminApplicationTests;
 import com.example.realadmin.system.Item;
+import com.example.realadmin.test.RealadminApplicationTests;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-public class ItemRepositoryTest extends RealadminApplicationTests{
+public class ItemRepositoryTest extends RealadminApplicationTests {
     @Autowired
     private ItemRepository itemRepository;
 

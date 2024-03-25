@@ -3,7 +3,6 @@ package com.example.realadmin.repositorytest;
 import com.example.realadmin.RealadminApplication;
 import com.example.realadmin.repositroy.CategoryRepository;
 import com.example.realadmin.system.Category;
-import com.example.realadmin.system.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

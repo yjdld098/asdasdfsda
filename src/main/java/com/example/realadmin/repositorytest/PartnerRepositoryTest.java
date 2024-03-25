@@ -1,8 +1,8 @@
 package com.example.realadmin.repositorytest;
 
-import com.example.realadmin.test.RealadminApplicationTests;
 import com.example.realadmin.repositroy.PartnerRepository;
 import com.example.realadmin.system.Partner;
+import com.example.realadmin.test.RealadminApplicationTests;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
